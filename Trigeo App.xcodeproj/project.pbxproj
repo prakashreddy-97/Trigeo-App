@@ -12,9 +12,22 @@
 		8336A242226B852600B6FD1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8336A240226B852600B6FD1C /* Main.storyboard */; };
 		8336A244226B852800B6FD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8336A243226B852800B6FD1C /* Assets.xcassets */; };
 		8336A247226B852800B6FD1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8336A245226B852800B6FD1C /* LaunchScreen.storyboard */; };
+		8336A250226B873300B6FD1C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336A24F226B873300B6FD1C /* LoginViewController.swift */; };
+		8336A252226B874C00B6FD1C /* ASImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336A251226B874C00B6FD1C /* ASImages.swift */; };
+		8336A254226B879300B6FD1C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336A253226B879300B6FD1C /* UIViewControllerExtension.swift */; };
+		8336A259226B980000B6FD1C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336A258226B980000B6FD1C /* HistoryViewController.swift */; };
+		8336A25B226B980700B6FD1C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336A25A226B980700B6FD1C /* AccountViewController.swift */; };
+		8336A25F226B988300B6FD1C /* TrigeoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336A25E226B988300B6FD1C /* TrigeoViewController.swift */; };
+		8336A261226C077E00B6FD1C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336A260226C077E00B6FD1C /* RegisterViewController.swift */; };
+		83D2A9172270097E00659D59 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D2A9162270097E00659D59 /* Quiz.storyboard */; };
+		83D2A91D2270731000659D59 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2A91C2270731000659D59 /* QuizViewController.swift */; };
+		83D2A91F2270778D00659D59 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2A91E2270778D00659D59 /* QuizModel.swift */; };
+		DB0B597CABE7EC788D52EE49 /* Pods_Trigeo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE68108A0F26B806E0EDB8C /* Pods_Trigeo_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DE68108A0F26B806E0EDB8C /* Pods_Trigeo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trigeo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F8772F037B57047FF0BF3C /* Pods-Trigeo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trigeo App.release.xcconfig"; path = "Target Support Files/Pods-Trigeo App/Pods-Trigeo App.release.xcconfig"; sourceTree = "<group>"; };
 		8336A239226B852600B6FD1C /* Trigeo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trigeo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8336A23C226B852600B6FD1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8336A23E226B852600B6FD1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		8336A243226B852800B6FD1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8336A246226B852800B6FD1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8336A248226B852800B6FD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8336A24F226B873300B6FD1C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8336A251226B874C00B6FD1C /* ASImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASImages.swift; sourceTree = "<group>"; };
+		8336A253226B879300B6FD1C /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		8336A258226B980000B6FD1C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		8336A25A226B980700B6FD1C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		8336A25E226B988300B6FD1C /* TrigeoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrigeoViewController.swift; sourceTree = "<group>"; };
+		8336A260226C077E00B6FD1C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		83D2A9162270097E00659D59 /* Quiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
+		83D2A91C2270731000659D59 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		83D2A91E2270778D00659D59 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		BD47517AB15EE9AEB45C183B /* Pods-Trigeo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trigeo App.debug.xcconfig"; path = "Target Support Files/Pods-Trigeo App/Pods-Trigeo App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0B597CABE7EC788D52EE49 /* Pods_Trigeo_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0895663E8E4CC040311D3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE68108A0F26B806E0EDB8C /* Pods_Trigeo_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EC09472F0156F83E8C496EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD47517AB15EE9AEB45C183B /* Pods-Trigeo App.debug.xcconfig */,
+				77F8772F037B57047FF0BF3C /* Pods-Trigeo App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8336A230226B852600B6FD1C = {
 			isa = PBXGroup;
 			children = (
 				8336A23B226B852600B6FD1C /* Trigeo App */,
 				8336A23A226B852600B6FD1C /* Products */,
+				5EC09472F0156F83E8C496EE /* Pods */,
+				3D0895663E8E4CC040311D3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,7 +98,14 @@
 		8336A23B226B852600B6FD1C /* Trigeo App */ = {
 			isa = PBXGroup;
 			children = (
+				83D2A91E2270778D00659D59 /* QuizModel.swift */,
+				83D2A9162270097E00659D59 /* Quiz.storyboard */,
+				83D2A91C2270731000659D59 /* QuizViewController.swift */,
+				8336A255226B97E000B6FD1C /* TabBar */,
+				8336A24E226B870B00B6FD1C /* Login */,
 				8336A23C226B852600B6FD1C /* AppDelegate.swift */,
+				8336A251226B874C00B6FD1C /* ASImages.swift */,
+				8336A253226B879300B6FD1C /* UIViewControllerExtension.swift */,
 				8336A23E226B852600B6FD1C /* ViewController.swift */,
 				8336A240226B852600B6FD1C /* Main.storyboard */,
 				8336A243226B852800B6FD1C /* Assets.xcassets */,
@@ -64,6 +115,25 @@
 			path = "Trigeo App";
 			sourceTree = "<group>";
 		};
+		8336A24E226B870B00B6FD1C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8336A260226C077E00B6FD1C /* RegisterViewController.swift */,
+				8336A24F226B873300B6FD1C /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8336A255226B97E000B6FD1C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8336A258226B980000B6FD1C /* HistoryViewController.swift */,
+				8336A25A226B980700B6FD1C /* AccountViewController.swift */,
+				8336A25E226B988300B6FD1C /* TrigeoViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8336A24B226B852800B6FD1C /* Build configuration list for PBXNativeTarget "Trigeo App" */;
 			buildPhases = (
+				1B424281DB51904D72BF3E07 /* [CP] Check Pods Manifest.lock */,
 				8336A235226B852600B6FD1C /* Sources */,
 				8336A236226B852600B6FD1C /* Frameworks */,
 				8336A237226B852600B6FD1C /* Resources */,
+				2EB02D4C315524F863EC6C8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +197,81 @@
 				8336A247226B852800B6FD1C /* LaunchScreen.storyboard in Resources */,
 				8336A244226B852800B6FD1C /* Assets.xcassets in Resources */,
 				8336A242226B852600B6FD1C /* Main.storyboard in Resources */,
+				83D2A9172270097E00659D59 /* Quiz.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B424281DB51904D72BF3E07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trigeo App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EB02D4C315524F863EC6C8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trigeo App/Pods-Trigeo App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trigeo App/Pods-Trigeo App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8336A235226B852600B6FD1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8336A250226B873300B6FD1C /* LoginViewController.swift in Sources */,
+				8336A261226C077E00B6FD1C /* RegisterViewController.swift in Sources */,
 				8336A23F226B852600B6FD1C /* ViewController.swift in Sources */,
+				8336A25F226B988300B6FD1C /* TrigeoViewController.swift in Sources */,
+				8336A25B226B980700B6FD1C /* AccountViewController.swift in Sources */,
+				8336A254226B879300B6FD1C /* UIViewControllerExtension.swift in Sources */,
+				83D2A91D2270731000659D59 /* QuizViewController.swift in Sources */,
+				83D2A91F2270778D00659D59 /* QuizModel.swift in Sources */,
 				8336A23D226B852600B6FD1C /* AppDelegate.swift in Sources */,
+				8336A259226B980000B6FD1C /* HistoryViewController.swift in Sources */,
+				8336A252226B874C00B6FD1C /* ASImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +415,19 @@
 		};
 		8336A24C226B852800B6FD1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD47517AB15EE9AEB45C183B /* Pods-Trigeo App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Trigeo App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "havya.Trigeo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +435,19 @@
 		};
 		8336A24D226B852800B6FD1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F8772F037B57047FF0BF3C /* Pods-Trigeo App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Trigeo App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "havya.Trigeo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

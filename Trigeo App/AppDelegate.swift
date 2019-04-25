@@ -1,5 +1,4 @@
 //
-//  AppDelegate.swift
 //  Trigeo App
 //
 //  Created by Mahesh on 20/04/19.
@@ -7,17 +6,26 @@
 //
 
 import UIKit
-
+import IQKeyboardManagerSwift
+let APPLICATION_ID = "FD35DDB9-39C2-1559-FF3C-6E24001E2A00"
+let API_KEY = "0B124826-FA6F-50DE-FF64-5A1A3D7CCD00"
+let SERVER_URL = "https://api.backendless.com"
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    
+    var backendless = Backendless.sharedInstance()
+    
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        IQKeyboardManager.shared.enable = true
+        backendless?.hostURL = SERVER_URL
+        backendless?.initApp(APPLICATION_ID, apiKey: API_KEY)
         // Override point for customization after application launch.
         return true
     }
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
